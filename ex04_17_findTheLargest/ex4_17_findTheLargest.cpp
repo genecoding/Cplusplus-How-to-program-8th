@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include <iostream>
 #include <limits.h>  //INT_MIN
 using std::cin;
