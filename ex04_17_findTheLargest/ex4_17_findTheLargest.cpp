@@ -1,7 +1,3 @@
-// ex4_17_findTheLargest.cpp : 定義主控台應用程式的進入點。
-// 4.17, 4.19, 
-
-#include "stdafx.h"
 #include <iostream>
 #include <limits.h>  //INT_MIN
 using std::cin;
