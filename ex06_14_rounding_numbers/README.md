@@ -1,8 +1,8 @@
 6.14 (Rounding Numbers) Function floor can be used to round a number to a specific decimal
 place. The statement
-y = floor( x * 10 + .5 ) / 10;
+y = floor( x * 10 + .5 ) / 10;  
 rounds x to the tenths position (the first position to the right of the decimal point). The statement
-y = floor( x * 100 + .5 ) / 100;
+y = floor( x * 100 + .5 ) / 100;  
 rounds x to the hundredths position (the second position to the right of the decimal point). Write
 a program that defines four functions to round a number x in various ways:
 a) roundToInteger( number )
