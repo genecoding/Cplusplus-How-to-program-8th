@@ -1,10 +1,7 @@
 7.24 (Knight’s Tour) The knight makes L-shaped moves (over two in one direction then over
 one in a perpendicular direction). Thus, from a square in the middle of an empty chessboard, 
-the knight can make eight different moves (numbered 0 through 7) as shown in Fig. 7.28.
-a) Draw an 8-by-8 chessboard on a sheet of paper and attempt a Knight’s Tour by hand.
-Put a 1 in the first square you move to, a 2 in the second square, a 3 in the third, etc.
-Before starting the tour, estimate how far you think you’ll get, remembering that a full
-tour consists of 64 moves. How far did you get? Was this close to your estimate?
+the knight can make eight different moves (numbered 0 through 7) as shown in Fig. 7.28.  
+a) Draw an 8-by-8 chessboard on a sheet of paper and attempt a Knight’s Tour by hand.  
 b) Now let’s develop a program that will move the knight around a chessboard. The board
 is represented by an 8-by-8 two-dimensional array board. Each of the squares is initialized 
 to zero. We describe each of the eight possible moves in terms of both their horizontal 
@@ -31,7 +28,7 @@ Keep a counter that varies from 1 to 64. Record the latest count in each square 
 knight moves to. Remember to test each potential move to see if the knight has already
 visited that square, and, of course, test every potential move to make sure that the
 knight does not land off the chessboard. Now write a program to move the knight
-around the chessboard. Run the program. How many moves did the knight make?
+around the chessboard. Run the program. How many moves did the knight make?  
 c) After attempting to write and run a Knight’s Tour program, you’ve probably developed
 some valuable insights. We’ll use these to develop a heuristic (or strategy) for moving
 the knight. Heuristics do not guarantee success, but a carefully developed heuristic
