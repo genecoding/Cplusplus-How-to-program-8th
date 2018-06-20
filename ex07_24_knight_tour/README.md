@@ -4,8 +4,8 @@ the knight can make eight different moves (numbered 0 through 7) as shown in Fig
 
 ![knight tour](https://github.com/genecoding/Cplusplus-How-to-program-8th/blob/master/ex07_24_knight_tour/knight%20tour.jpg)
 
-a) Draw an 8-by-8 chessboard on a sheet of paper and attempt a Knight’s Tour by hand.  
-b) Now let’s develop a program that will move the knight around a chessboard. The board
+* a) Draw an 8-by-8 chessboard on a sheet of paper and attempt a Knight’s Tour by hand.  
+* b) Now let’s develop a program that will move the knight around a chessboard. The board
 is represented by an 8-by-8 two-dimensional array board. Each of the squares is initialized 
 to zero. We describe each of the eight possible moves in terms of both their horizontal 
 and vertical components. For example, a move of type 0, as shown in Fig. 7.28,
@@ -32,7 +32,7 @@ knight moves to. Remember to test each potential move to see if the knight has a
 visited that square, and, of course, test every potential move to make sure that the
 knight does not land off the chessboard. Now write a program to move the knight
 around the chessboard. Run the program. How many moves did the knight make?  
-c) After attempting to write and run a Knight’s Tour program, you’ve probably developed
+* c) After attempting to write and run a Knight’s Tour program, you’ve probably developed
 some valuable insights. We’ll use these to develop a heuristic (or strategy) for moving
 the knight. Heuristics do not guarantee success, but a carefully developed heuristic
 greatly improves the chance of success. You may have observed that the outer squares
