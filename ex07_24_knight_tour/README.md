@@ -1,6 +1,9 @@
 7.24 (Knight’s Tour) The knight makes L-shaped moves (over two in one direction then over
 one in a perpendicular direction). Thus, from a square in the middle of an empty chessboard, 
 the knight can make eight different moves (numbered 0 through 7) as shown in Fig. 7.28.  
+
+![knight tour](https://github.com/genecoding/Cplusplus-How-to-program-8th/blob/master/ex07_24_knight_tour/knight%20tour.jpg)
+
 a) Draw an 8-by-8 chessboard on a sheet of paper and attempt a Knight’s Tour by hand.  
 b) Now let’s develop a program that will move the knight around a chessboard. The board
 is represented by an 8-by-8 two-dimensional array board. Each of the squares is initialized 
