@@ -24,9 +24,9 @@ horizontal[ 6 ] = 1 vertical[ 6 ] = 2
 horizontal[ 7 ] = 2 vertical[ 7 ] = 1  
 Let the variables currentRow and currentColumn indicate the row and column of
 the knight’s current position. To make a move of type moveNumber, where moveNumber is
-between 0 and 7, your program uses the statements
-currentRow += vertical[ moveNumber ];
-currentColumn += horizontal[ moveNumber ];
+between 0 and 7, your program uses the statements  
+currentRow += vertical[ moveNumber ];  
+currentColumn += horizontal[ moveNumber ];  
 Keep a counter that varies from 1 to 64. Record the latest count in each square the
 knight moves to. Remember to test each potential move to see if the knight has already
 visited that square, and, of course, test every potential move to make sure that the
