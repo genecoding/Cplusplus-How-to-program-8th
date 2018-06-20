@@ -1,9 +1,9 @@
 7.29 (The Sieve of Eratosthenes) A prime integer is any integer that is evenly divisible only by
 itself and 1. The Sieve of Eratosthenes is a method of finding prime numbers. It operates as follows:  
-a) Create an array with all elements initialized to 1 (true). Array elements with prime subscripts 
+* a) Create an array with all elements initialized to 1 (true). Array elements with prime subscripts 
 will remain 1. All other array elements will eventually be set to zero. You’ll ignore
 elements 0 and 1 in this exercise.  
-b) Starting with array subscript 2, every time an array element is found whose value is 1,
+* b) Starting with array subscript 2, every time an array element is found whose value is 1,
 loop through the remainder of the array and set to zero every element whose subscript
 is a multiple of the subscript for the element with value 1. For array subscript 2, all 
 elements beyond 2 in the array that are multiples of 2 will be set to zero (subscripts 4, 6,
