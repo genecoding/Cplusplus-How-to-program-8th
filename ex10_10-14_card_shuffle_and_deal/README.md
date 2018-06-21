@@ -48,3 +48,7 @@ program to play 20 games against the computer. Who wins more games, you or the c
 one of your friends play 20 games against the computer. Who wins more games? Based on the results
 of these games, make appropriate modifications to refine your poker-playing program. Play 20 more
 games. Does your modified program play a better game?
+
+---
+can tell no pair, one pair, two pairs, three kindof, straight, flush, full house, four kindof, straight flush,
+and evaluate it.
