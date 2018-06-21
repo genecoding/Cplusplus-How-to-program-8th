@@ -51,4 +51,6 @@ games. Does your modified program play a better game?
 
 ---
 can tell no pair, one pair, two pairs, three kindof, straight, flush, full house, four kindof, straight flush,
-and evaluate it.
+and evaluate it.  
+can play with human(player2) or play with computer(dealer).  
+can change cards.
