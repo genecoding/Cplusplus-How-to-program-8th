@@ -4,4 +4,4 @@ pointers to the int variables that represent the row and column of the maze’s 
 function mazeTraverse from Exercise 8.16, using several randomly generated mazes.
 
 ---
-Basically can generate any size(row/col) of maze, and traverse it.
+Basically can generate any size(row/col) of maze, randomly, and traverse it.
