@@ -50,8 +50,8 @@ of these games, make appropriate modifications to refine your poker-playing prog
 games. Does your modified program play a better game?
 
 ---
-A card player game which  
-can tell all card patterns(no pair, one pair, two pairs, three kindof, straight, flush, full house, four kindof, straight flush) 
+A card playing game which  
+can tell all hands(no pair, one pair, two pairs, three kindof, straight, flush, full house, four kindof, straight flush) 
 and evaluate it.  
 can play with human(player2) or play with computer(dealer).  
 can change cards.
