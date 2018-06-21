@@ -8,7 +8,7 @@ another body part filled. After seven incorrect guesses, the user should be hang
 should look as follows:  
  O  
 /|\  
- |  
+&nbsp;|  
 / \\  
 After each guess, display all user guesses. If the user guesses the word correctly, display  
 Congratulations!!! You guessed my word. Play again? yes/no
