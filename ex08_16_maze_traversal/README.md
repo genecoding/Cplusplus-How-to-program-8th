@@ -11,6 +11,8 @@ do not remove your hand from the wall, eventually you’ll arrive at the exit of
 be a shorter path than the one you’ve taken, but you are guaranteed to get out of the maze if you
 follow the algorithm.
 
+![maze](https://github.com/genecoding/Cplusplus-How-to-program-8th/blob/master/ex08_16_maze_traversal/Snap7.jpg)
+
 Write recursive function mazeTraverse to walk through the maze. The function should
 receive arguments that include a 12-by-12 character array representing the maze and the starting
 location of the maze. As mazeTraverse attempts to locate the exit from the maze, it should place
