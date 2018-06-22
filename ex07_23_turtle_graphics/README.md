@@ -7,7 +7,7 @@ and create a computerized sketchpad as well.
 Use a 20-by-20 array floor that is initialized to false. Read commands from an array that
 contains them. Keep track of the current position of the turtle at all times and whether the pen is
 currently up or down. Assume that the turtle always starts at position (0, 0) of the floor with its
-pen up. The set of turtle commands your program must process are shown in Fig. 7.27.  
+pen up. The set of turtle commands your program must process are shown as following.  
 
 Command | Meaning
 ------- | -------
