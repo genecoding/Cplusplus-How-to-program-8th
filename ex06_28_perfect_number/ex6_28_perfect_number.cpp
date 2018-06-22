@@ -5,20 +5,18 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-bool isPerfect(int n);
+void isPerfect(int n);
 
 int main()
 {
 	for(int i = 1; i <= 1000; i++) {
-		if(isPerfect(i))
-			cout << i << endl;
+		(isPerfect(i))
 	}
 
-	cout << endl;
 	return 0;
 }
 
-bool isPerfect(int n)
+void isPerfect(int n)
 {
 	int factors[1001] = {0};
 	int rootOfN = (std::sqrt(static_cast<double>(n)));  //find factors of n from rootOfN to 1.
@@ -31,10 +29,22 @@ bool isPerfect(int n)
 		}
 	}
 
+	//check if n is a perfect number
 	int perfect = 0;
-	for(int i = 1; i < n; i++)
+	for(int i = 1; i < n; i++) {
 		if(factors[i] == 1)
 			perfect += i;
+	}
 
-	return  perfect == n;
+	//print out
+	if(perfect == n) {
+		cout << n << ", ";
+		for(int i = 1; i < n; i++) {
+			if(factors[i] == 1)
+				cout << i << ' ';
+		}
+		cout << endl;
+	}
+
+	return;  
 }
