@@ -52,6 +52,6 @@ games. Does your modified program play a better game?
 ---
 A card playing game which  
 can tell all hands(no pair, one pair, two pairs, three kindof, straight, flush, full house, four kindof, straight flush) 
-and evaluate it.  
-can play with human(player2) or play with computer(dealer).  
+and evaluate them.  
+can select to play with human(player2) or play with computer(dealer).  
 can change cards.
