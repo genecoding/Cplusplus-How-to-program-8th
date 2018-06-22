@@ -5,7 +5,7 @@ The course weaves its way up the side of a slippery mountain, so occasionally th
 
 There is a clock that ticks once per second. With each tick of the clock, your program should
 use function moveTortoise and moveHare to adjust the position of the animals according to the
-rules in Fig. 8.21. These functions should use pointer-based pass-by-reference to modify the 
+rules in the table. These functions should use pointer-based pass-by-reference to modify the 
 position of the tortoise and the hare.
 
 Animal | Move type | Percentage of<br> the time | Actual move  
