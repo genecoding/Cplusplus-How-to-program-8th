@@ -302,8 +302,8 @@ bool isValidMove(const char maze[][COL_SIZE], int nextX, int nextY)
 
 void drawMaze(const char maze[][COL_SIZE], int currentRow, int currentCol)
 {
-	for(int row = 0; row < 12; row++) {
-		for(int col = 0; col < 12; col++) {
+	for(int row = 0; row < ROW_SIZE; row++) {
+		for(int col = 0; col < COL_SIZE; col++) {
 			if(row == currentRow && col == currentCol)
 				cout << std::setw(2) << 'x';
 			else
