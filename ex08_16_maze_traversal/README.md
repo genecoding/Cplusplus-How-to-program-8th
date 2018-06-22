@@ -1,4 +1,4 @@
-8.16 (Maze Traversal) The grid of hashes (#) and dots (.) in Fig. 8.22 is a two-dimensional array
+8.16 (Maze Traversal) The grid of hashes (#) and dots (.) in the following figure is a two-dimensional array
 representation of a maze. In the two-dimensional array, the hashes represent the walls of the maze
 and the dots represent squares in the possible paths through the maze. Moves can be made only to
 a location in the array that contains a dot.
@@ -11,7 +11,7 @@ do not remove your hand from the wall, eventually you’ll arrive at the exit of
 be a shorter path than the one you’ve taken, but you are guaranteed to get out of the maze if you
 follow the algorithm.
 
-![maze](https://github.com/genecoding/Cplusplus-How-to-program-8th/blob/master/ex08_16_maze_traversal/Snap7.jpg)
+![maze](https://github.com/genecoding/Cplusplus-How-to-program-8th/blob/master/ex08_16_maze_traversal/maze.jpg)
 
 Write recursive function mazeTraverse to walk through the maze. The function should
 receive arguments that include a 12-by-12 character array representing the maze and the starting
