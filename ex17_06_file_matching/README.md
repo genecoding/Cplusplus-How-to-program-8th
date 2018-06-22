@@ -1,6 +1,4 @@
-17.6 (File Matching) Exercise 17.3 asked you to write a series of single statements. Actually,
-these statements form the core of an important type of file-processing program, namely, a filematching 
-program. In commercial data processing, it’s common to have several files in each 
+17.6 (File Matching) In commercial data processing, it’s common to have several files in each 
 application system. In an accounts receivable system, for example, there is generally a master 
 file containing detailed information about each customer, such as the customer’s name, address, telephone
 number, outstanding balance, credit limit, discount terms, contract arrangements and, possibly, a
@@ -8,10 +6,10 @@ condensed history of recent purchases and cash payments.
 
 As transactions occur (e.g., sales are made and cash payments arrive), they’re entered into a
 file. At the end of each business period (a month for some companies, a week for others and a day
-in some cases), the file of transactions (called trans.dat in Exercise 17.3) is applied to the master
-file (called oldmast.dat in Exercise 17.3), thus updating each account's record of purchases and
-payments. During an updating run, the master file is rewritten as a new file (newmast.dat), which
-is then used at the end of the next business period to begin the updating process again.
+in some cases), the file of transactions (called trans.dat) is applied to the master file (called 
+oldmast.dat), thus updating each account's record of purchases and payments. During an updating run, 
+the master file is rewritten as a new file (newmast.dat), which is then used at the end of the next
+business period to begin the updating process again.
 
 File-matching programs must deal with certain problems that do not exist in single-file programs. 
 For example, a match does not always occur. A customer on the master file might not have
