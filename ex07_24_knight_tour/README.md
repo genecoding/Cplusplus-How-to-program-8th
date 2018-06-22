@@ -1,6 +1,6 @@
 7.24 (Knight’s Tour) The knight makes L-shaped moves (over two in one direction then over
 one in a perpendicular direction). Thus, from a square in the middle of an empty chessboard, 
-the knight can make eight different moves (numbered 0 through 7) as shown in Fig. 7.28.  
+the knight can make eight different moves (numbered 0 through 7) as shown.  
 
 ![knight tour](https://github.com/genecoding/Cplusplus-How-to-program-8th/blob/master/ex07_24_knight_tour/knight%20tour.jpg)
 
@@ -8,12 +8,11 @@ the knight can make eight different moves (numbered 0 through 7) as shown in Fig
 * b) Now let’s develop a program that will move the knight around a chessboard. The board
 is represented by an 8-by-8 two-dimensional array board. Each of the squares is initialized 
 to zero. We describe each of the eight possible moves in terms of both their horizontal 
-and vertical components. For example, a move of type 0, as shown in Fig. 7.28,
-consists of moving two squares horizontally to the right and one square vertically upward. 
-Move 2 consists of moving one square horizontally to the left and two squares
-vertically upward. Horizontal moves to the left and vertical moves upward are indicated
-with negative numbers. The eight moves may be described by two one-dimensional arrays, 
-horizontal and vertical, as follows:  
+and vertical components. For example, a move of type 0 consists of moving two squares 
+horizontally to the right and one square vertically upward. Move 2 consists of moving one 
+square horizontally to the left and two squares vertically upward. Horizontal moves to the 
+left and vertical moves upward are indicated with negative numbers. The eight moves may be
+described by two one-dimensional arrays, horizontal and vertical, as follows:  
 horizontal[ 0 ] = 2 vertical[ 0 ] = -1  
 horizontal[ 1 ] = 1 vertical[ 1 ] = -2  
 horizontal[ 2 ] = -1 vertical[ 2 ] = -2  
